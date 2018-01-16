@@ -425,3 +425,8 @@ Processing by AuthorsController#show as HTML
   [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1[0m  [["id", 1]]
   [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."author_id" = ?  [["author_id", 1]]
   Rendered authors/show.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 86ms (Views: 64.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/original/default-4d452c63d330fa4ca5200c3fa437bfd595741d59846222f62704f02365fdbc6c.png" for 74.73.38.177 at 2018-01-16 19:58:41 +0000
+Cannot render console from 74.73.38.177! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
